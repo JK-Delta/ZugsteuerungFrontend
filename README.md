@@ -22,12 +22,16 @@ Befehl installieren:
 sudo apt-get install lighttpd
 ```
 Lade nun die neuste Release Version herunter:
-
-Danach das Archiv entpacken:
-
-Der Inhalt des Archivs muss nun in das Verzeichnis des Webservers verschoben werden:
 ```
-sudo mv ZugsteuerungFrontend/* /var/www/html/
+wget https://github.com/JK-Delta/ZugsteuerungFrontend/releases/download/1.0.0/ZugsteuerungFrontend.zip
+```
+Danach das Archiv entpacken:
+```
+unzip ZugsteuerungFrontend.zip
+```
+Der Inhalt des Archivs muss nun in das Verzeichnis des Webservers kopiert werden:
+```
+sudo cp -r ZugsteuerungFrontend/* /var/www/html/
 ```
 Wenn du einen anderen Webserver benutzt, kann das Verzeichnis anders lauten.
 Das Webinterface ist nun fertig installiert. Der Webserver *lighttpd* started automatisch mit dem System
@@ -43,6 +47,8 @@ raspberrypi.local
 Eventuell muss du aber die IP-Adresse manuell herausfinden.
 Da zu Beginn noch keine Züge im System sind, wird auf der Website die Hilfe automatisch eingeblendet.
 Folge der Anleitung auf der Website um den ersten Zug hinzuzufügen und zu steuern.
+
+Falls die Website leer bleibt, prüfe ob Javascript im Browser aktiviert ist.
 
 ## Lizenz
 Dieses Projekt steht unter der [MIT](https://spdx.org/licenses/MIT.html)-Lizenz zur Verfügung.
