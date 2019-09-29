@@ -1,0 +1,7 @@
+<div class="train-list">
+  <app-train class="train-element" *ngFor="let train of trainList" [train]="train" (onRemove)="removeTrain(train)" [ngStyle]="{'background-color': getRgbString(train.color) }"></app-train>
+</div>
+
+<div *ngIf="trainList.length < 1">
+  Keine Züge vorhanden.
+</div>

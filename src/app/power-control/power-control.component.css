@@ -1,0 +1,88 @@
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 46px;
+    border: solid;
+    border-radius: 5px;
+    border-color: gray;
+    background: url(/assets/slider_knob_vert.svg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    border-color: orange;
+}
+
+.slider::-moz-range-thumb {
+    width: 30px;
+    height: 46px;
+    border: solid;
+    border-radius: 5px;
+    border-color: gray;
+    background: url(/assets/slider_knob_vert.svg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb:hover {
+    border-color: orange;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 15px;
+    border-radius: 2px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.95;
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+}
+
+.train-button {
+    width: 40px;
+    height: 40px;
+    border: solid;
+    border-radius: 7px;
+    border-color: gray;
+    margin: 2px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.train-button:hover {
+    border-color: orange;
+  }
+
+.train-button-minus {
+    background: url(/assets/button_minus.svg);
+    background-size: cover;
+}
+
+.train-button-stop {
+    background: url(/assets/button_stop.svg);
+    background-size: cover;
+}
+
+.train-button-plus {
+    background: url(/assets/button_plus.svg);
+    background-size: cover;
+}
+
+#power-text {
+    font-size: 32px;
+    margin: 2px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65px;
+    max-width: 65px;
+    min-width: 65px;
+    border-style: groove;
+    display: inline-block;
+    text-align: center;
+}

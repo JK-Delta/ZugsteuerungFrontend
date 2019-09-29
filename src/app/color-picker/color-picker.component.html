@@ -1,0 +1,9 @@
+<button *ngFor="let colorValue of colorList" class="color-button gray-border" [ngStyle]="{'background-color': getRgbString(colorValue) }" (click)="onColorPick(colorValue)"></button>
+<!--
+    PU Hub Firmware does not seem to accept RGB input yet.
+<br>
+<input [(ngModel)]="color.r" class="rgb-input"/>
+<input [(ngModel)]="color.g" class="rgb-input"/>
+<input [(ngModel)]="color.b" class="rgb-input"/>
+<button class="color-button gray-border costum-color" [ngStyle]="{'background-color': getRgbString(color) }" (click)="onColorPick(color)"></button>
+-->

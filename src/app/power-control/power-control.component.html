@@ -1,0 +1,7 @@
+<input [(ngModel)]="port.power" (input)="onPowerInput()" type="range" min="-100" max="100" value="0" class="slider" id="1">
+<br>
+<button (click)="onPowerChange(port, -12)" class="train-button train-button-minus">-</button>
+<button (click)="onStop(port)" class="train-button train-button-stop">Stop</button>
+<button (click)="onPowerChange(port, 12)" class="train-button train-button-plus">+</button>
+<span id="power-text">{{port.power}}</span>
+<br>

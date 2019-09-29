@@ -1,0 +1,20 @@
+<div>
+    <h3><span *ngIf="train.name.length < 12">Zug: </span>{{train.name}}</h3>
+    <img *ngIf="!connecting && !train.online" class="connection" src="/assets/sleep.svg" width="40" height="40" alt="connecting"/>
+    <img *ngIf="connecting" class="connection" src="/assets/discover_64.gif" width="40" height="40" alt="connecting"/>
+    <img *ngIf="!connecting && train.online && train.distance > 0.8" class="connection"  src="/assets/discover0.svg" width="40" height="40" alt="connected"/>
+    <img *ngIf="!connecting && train.online && train.distance > 0.6 && train.distance <= 0.8" class="connection"  src="/assets/discover1.svg" width="40" height="40" alt="connected"/>
+    <img *ngIf="!connecting && train.online && train.distance > 0.4 && train.distance <= 0.6" class="connection"  src="/assets/discover2.svg" width="40" height="40" alt="connected"/>
+    <img *ngIf="!connecting && train.online && train.distance <= 0.4 " class="connection"  src="/assets/discover3.svg" width="40" height="40" alt="connected"/>
+</div>
+<button (click)="onConnect(train)" class="square-button connect gray-border">Verbinden</button>
+<button (click)="toggleRemoveOption()" class="square-button remove-toggle gray-border">Trennen</button>
+<button (click)="toggleColorPicker()" class="square-button color-picker gray-border">Farbe</button>
+<span id="battery-text"><img id="battery" src="/assets/battery.svg" alt="battery"/> {{train.battery}}</span>
+<br>
+<div *ngIf="showRemoveOption">
+    <button (click)="removeTrain(train)" class="remove-button gray-border" >Entfernen</button>
+</div>
+<app-color-picker *ngIf="showColorPicker" [train]="train"></app-color-picker>
+<app-power-control *ngFor="let idAndPort of motorPorts | keyvalue" [port]="idAndPort.value" [train]="train"></app-power-control>
+

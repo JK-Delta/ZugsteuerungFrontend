@@ -1,0 +1,61 @@
+div {
+    width: 207px;
+    max-width: 207px;
+    display: flex;
+}
+
+h3 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    flex: 4;
+}
+
+
+.connection {
+    flex: 1;
+}
+
+#battery {
+    height: 0.7em;
+    margin-left: 8px;
+}
+
+#battery-text {
+    font-weight: bold;
+}
+
+.square-button {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.connect {
+    background: url(/assets/connect.svg);
+    background-size: cover;
+}
+
+.remove-toggle {
+    background: url(/assets/delete.svg);
+    background-size: cover;
+}
+
+.color-picker {
+    background: url(/assets/color_button.png);
+    background-size: cover;
+}
+
+.remove-button {
+    margin: 2px;
+    margin-top: 4px; 
+    font-weight: bold;
+    font-size: 1.4rem;
+    background-color: firebrick;
+    flex: 1;
+}

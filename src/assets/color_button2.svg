@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 49.400002 49.400002"
+   height="49.400002mm"
+   width="49.400002mm">
+  <defs
+     id="defs2">
+    <meshgradient
+       gradientTransform="translate(7.4832834e-8,4.3262024e-6)"
+       y="-4.3262021e-006"
+       x="-7.4832833e-008"
+       gradientUnits="userSpaceOnUse"
+       id="meshgradient2420">
+      <meshrow
+         id="meshrow20946">
+        <meshpatch
+           id="meshpatch20948">
+          <stop
+             id="stop20950"
+             style="stop-color:#808000;stop-opacity:1"
+             path="c 16.4667,6.31624e-006  32.938,0.0097845  49.4,-2.47928e-013" />
+          <stop
+             id="stop20952"
+             style="stop-color:#00ff80;stop-opacity:1"
+             path="c 0.00803345,16.4771  0.000329276,32.9321  1.52588e-006,49.4" />
+          <stop
+             id="stop20954"
+             style="stop-color:#0000ff;stop-opacity:1"
+             path="c -16.4667,0.00116239  -32.9261,0.022137  -49.3969,0.00213694" />
+          <stop
+             id="stop20956"
+             style="stop-color:#ff0000;stop-opacity:1"
+             path="c 0.00863757,-16.4423  0.00895,-32.9198  -0.00310153,-49.4021" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <rect
+       y="5.6843419e-014"
+       x="0"
+       height="49.400002"
+       width="49.400002"
+       id="rect815"
+       style="opacity:1;fill:url(#meshgradient2420);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
+  </g>
+</svg>

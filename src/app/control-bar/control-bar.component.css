@@ -1,0 +1,22 @@
+.train-button {
+    height: 40px;
+    margin: 2px;
+    vertical-align: middle;
+
+    border: solid;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+.train-button:hover {
+    border-color: orange;
+}
+
+.red-button {
+    background-color: brown;
+    color: white;
+}
+
+#discover-image {
+    vertical-align: middle;
+}

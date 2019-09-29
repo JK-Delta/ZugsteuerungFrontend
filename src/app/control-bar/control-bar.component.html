@@ -1,0 +1,11 @@
+<div>
+  <button (click)="onDiscover()" class="train-button">Neue Züge finden</button>
+  <img *ngIf="discovery" id="discover-image" src="/assets/discover_64.gif" width="40" height="40" alt="discovering"/>
+  <button (click)="connectAllTrains()" class="train-button">Alle Züge verbinden</button>
+  <button (click)="disconnectAllTrains()" class="train-button">Alle Züge trennen</button>
+<!--  <button (click)="loadAllTrains()" class="train-button">Züge neu laden</button> -->
+<!--  <button (click)="shutdownBluetooth()" class="train-button">Bluetooth abschalten</button> -->
+  <button (click)="onDarkModeSwitch()" class="train-button">Dunkler Modus</button>
+  <button (click)="onHelpToggle()" class="train-button">Hilfe</button>
+  <button (click)="stopAllTrains()" class="train-button red-button">Alle Anhalten!</button>
+</div>

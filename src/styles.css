@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0px;
+}
+
+.dark {
+  background-color: black;
+}
+
+.gray-border {
+  border: solid;
+  border-radius: 10px;
+  border-color: gray;
+}
+
+.gray-border:hover {
+  border-color: orange;
+}
