@@ -7,6 +7,8 @@ Die Zugsteuerung besteht aus 2 Teilen:
 
 Dieses Projekt enthält das Webinterface (Frontend) für die Zugsteuerung.
 Das Webinterface besteht aus einer einzelnen Website die mit Angular 7 erstellt wurde.
+Die Serveranwendung befindet sich [hier](https://github.com/JK-Delta/Zugsteuerung) und sollte zuerst installiert
+werden.
 
 ## Übersicht
 
@@ -38,6 +40,8 @@ Das Webinterface ist nun fertig installiert. Der Webserver *lighttpd* started au
 zusammen, das Webinterface muss also nicht extra gestartet werden.
 
 ## Benutzung
+
+Stelle zunächst sich das die Serveranwendung installiert und gestartet ist.
 
 Navigiere in deinem Browserfenster zur Adresse des Systems.
 Bei einem Raspberry Pi im lokalen Netzwerk funktioniert normalerweise die Adresse:
