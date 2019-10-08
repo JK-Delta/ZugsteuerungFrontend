@@ -41,7 +41,7 @@ zusammen, das Webinterface muss also nicht extra gestartet werden.
 
 ## Benutzung
 
-Stelle zunächst sich das die Serveranwendung installiert und gestartet ist.
+Stelle zunächst sicher das die Serveranwendung installiert und gestartet ist.
 
 Navigiere in deinem Browserfenster zur Adresse des Systems.
 Bei einem Raspberry Pi im lokalen Netzwerk funktioniert normalerweise die Adresse:
